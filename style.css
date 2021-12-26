@@ -1,0 +1,68 @@
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.unixtimestamp {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+  } 
+
+#dateInput, #timestampInput, #timestampOutput, #dateOutput {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: medium;
+}
+
+.datetotimestamp, .timestamptodate {
+    clear: both
+}
+
+.datetotimestamp {
+    padding: 20px 12px 10px 20px;	
+}
+
+.timestamptodate {
+    padding: 20px 12px 10px 20px;
+}
+
+.date {
+    float: left; 
+    width: 29%;
+    height: 32px;
+    line-height: 32px;
+}
+
+#timestampOutput {
+    float: left; 
+    width: 10%;
+    height: 32px;
+    line-height: 32px; 
+}
+
+.timestamp {
+    float: left; 
+    width: 30%;
+    height: 32px;
+    line-height: 32px;
+}  
+
+#dateOutput {
+    float: left; 
+    width: 9%;
+    height: 32px;
+    line-height: 32px;
+}  
+
+#timestampOutput, #dateOutput {
+    background-color: #FFFFE0;
+    text-align: center;
+    line-height: 32px;
+}
+
+
+
+
+ 

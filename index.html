@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Unix timestamp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">  
+  </head>
+  <body onload="defaultDateAndTimestamp()">
+    
+    <article class="unixtimestamp">
+  
+      <section class="datetotimestamp">
+        
+        <section class="date">
+          <label for="dateInput">Date:</label>
+          <input type="date" id="dateInput" name="dateInput">
+          <button type="button" onclick="convertDateToTimestamp()">To Unix timestamp: </button>
+        </section>
+
+        <section id="timestampOutput"></section>
+
+      </section>
+
+      <section class="timestamptodate">
+
+        <section class="timestamp">
+          <label for="timestampInput">Unix timestamp:</label>
+          <input type="number" id="timestampInput" name="timestampInput" size="11"> 
+          <button type="button" onclick="convertTimestampToDate()">To date: </button>
+        </section>
+
+        <section id="dateOutput"></section>
+                
+      </section>
+      
+   
+    </article>
+
+   
+   
+   
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
